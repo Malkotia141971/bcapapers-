@@ -2,7 +2,7 @@ body{
 
 font-family: Arial;
 
-background:#f4f4f4;
+background:#f2f2f2;
 
 text-align:center;
 
@@ -10,44 +10,44 @@ text-align:center;
 
 h1{
 
-margin-top:80px;
+margin-top:30px;
 
 }
 
 .container{
 
-margin-top:40px;
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+
+gap:20px;
+
+padding:30px;
 
 }
 
-a{
+.card{
 
-display:block;
+background:white;
 
-width:260px;
+padding:20px;
 
-margin:12px auto;
-
-padding:14px;
-
-background:#007bff;
-
-color:white;
+border-radius:10px;
 
 text-decoration:none;
 
-border-radius:6px;
+color:black;
 
-font-size:18px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
 
 transition:0.3s;
 
 }
 
-a:hover{
+.card:hover{
 
-transform:scale(1.1);
+transform:scale(1.05);
 
-background:#003f88;
+box-shadow:0 6px 15px rgba(0,0,0,0.2);
 
 }
