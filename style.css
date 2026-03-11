@@ -1,7 +1,9 @@
 body{
 
 font-family: Arial;
+
 background:#f4f4f4;
+
 text-align:center;
 
 }
@@ -21,21 +23,30 @@ margin-top:40px;
 a{
 
 display:block;
+
 width:260px;
+
 margin:12px auto;
+
 padding:14px;
 
 background:#007bff;
+
 color:white;
 
 text-decoration:none;
+
 border-radius:6px;
 
 font-size:18px;
 
+transition:0.3s;
+
 }
 
 a:hover{
+
+transform:scale(1.1);
 
 background:#003f88;
 
